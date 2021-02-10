@@ -16,15 +16,15 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-		//SaudaÁ„o e pergunta o nome.
-		System.out.println("Ol· amigo!\nQual È o seu nome?"); 
+		//Sauda√ß√£o e pergunta o nome.
+		System.out.println("Ol√° amigo!\nQual √© o seu nome?"); 
 		
 		//Ler o nome.
 		Scanner in = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		//SaldaÁ„o especÌfica.
-		System.out.printf("Ol· %s!\n", nome);
+		//Salda√ß√£o espec√≠fica para o nome lido.
+		System.out.printf("Ol√° %s!\n", nome);
 
 	}
 
