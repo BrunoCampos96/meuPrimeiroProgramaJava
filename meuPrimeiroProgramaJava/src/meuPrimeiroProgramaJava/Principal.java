@@ -12,16 +12,18 @@ import java.util.Scanner;
  * @author bruno
  *
  */
-public class Principal { // Classe que contém o método principal
+public class Principal { 
 
-	public static void main(String[] args) { //Este é o método principal
-		System.out.println("Olá amigo!\nQual é o seu nome?"); // Uso do println
+	public static void main(String[] args) {
 		
-		//Ler uma string do console utilizando a biblioteca Scanner.
+		//Saudação e pergunta o nome.
+		System.out.println("Olá amigo!\nQual é o seu nome?"); 
+		
+		//Ler o nome.
 		Scanner in = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		//Exibir uma string utilizando o printf.
+		//Saldação específica.
 		System.out.printf("Olá %s!\n", nome);
 
 	}
